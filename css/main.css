@@ -4,8 +4,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.3 georgia, serif;
-
+  font: normal 100%/1.3 Georgia, serif;
 }
 
 *, *::before, *::after {
