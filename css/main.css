@@ -5,7 +5,7 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: Georgia, serif;
-  font: normal 100%/1.5 Georgia, sans-serif;
+  font: normal 100%/1.3 Georgia, sans-serif;
 
 }
 
@@ -48,8 +48,25 @@ h2 {
 
 @media only screen and (min-width: 38em) {
 
+  .image-card {
+    position: relative;
+  }
 
+  .text-card {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    width: 60%;
+    color: white;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+  }
 
+  p {
+    font-size: 110%;
+    line-height: 1.4;
+    margin-bottom: 0;
+  }
 }
 
 @media only screen and (min-width: 60em) {
